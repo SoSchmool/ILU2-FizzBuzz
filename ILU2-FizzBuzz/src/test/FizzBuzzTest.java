@@ -22,5 +22,17 @@ public class FizzBuzzTest {
 	void testFizz3() {
 		assertEquals(FizzBuzz.fizzbuzz(3), "fizz");
 	}
+	
+	@Test
+	void testQuelquesValeurs() {
+		assertEquals(FizzBuzz.fizzbuzz(4), "4");
+		assertEquals(FizzBuzz.fizzbuzz(7), "7");
+		assertEquals(FizzBuzz.fizzbuzz(400), "400");
+	}
+	
+	@Test
+	void testFizz5() {
+		assertEquals(FizzBuzz.fizzbuzz(5), "buzz");
+	}
 
 }
