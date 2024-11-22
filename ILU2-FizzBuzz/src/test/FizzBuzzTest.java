@@ -41,5 +41,13 @@ public class FizzBuzzTest {
 		assertEquals(FizzBuzz.fizzbuzz(10), "buzz");
 		assertEquals(FizzBuzz.fizzbuzz(9), "fizz");
 	}
+	
+	@Test
+	void testMultiplesDouble() {
+		assertEquals(FizzBuzz.fizzbuzz(15), "fizzbuzz");
+		assertEquals(FizzBuzz.fizzbuzz(30), "fizzbuzz");
+		assertEquals(FizzBuzz.fizzbuzz(45), "fizzbuzz");
+		
+	}
 
 }
